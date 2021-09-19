@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../style/main.css">
+    <title>Covid Wait App</title>
+</head>
+<body>
+    <header>
+        <i class="far fa-shield-virus"></i>
+        <h1 class="text-center">Covid Wait App</h1>
+        <i class="far fa-clock"></i>
+    </header>
+
+    <section>
+        <div class="search shadow-lg p-2 mb-5 rounded">
+            <label class="text-center" for="location"><h3>Find a vaccination centre near you</h3></label> <br>
+            <input id="city-entered" class="location-entered mb-3 p-3 rounded" placeholder="Find a centre near you" name="location" type="text" required>
+            <button class="btn-submit btn btn-primary btn-lg"><h3>Submit</h3></button> <br>
+        </div>
+
+        
+        <div class="map">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe frameborder="0" cellspacing="0" height="500px" width="100%" scrolling="yes" src="//dhhs.carto.com/builder/1579ce9c-1dfc-494b-b303-0b3710c83f5b/embed"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <h3>&copy; Copyright 2021</h3>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

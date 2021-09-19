@@ -1,0 +1,44 @@
+{
+	"users": {
+		"id": 1,
+		"name": "Jordan R",
+		"password": "abc1234",
+		"location": "Melbourne",
+		"email": "jordan101@gmail.com"
+	},
+	{
+		"id": 2,
+		"name": "Kong A",
+		"password": "jan1234",
+		"location": "Melbourne",
+		"email": "kong112@gmail.com"
+	},
+	{
+		"id": 3,
+		"name": "Dean B",
+		"password": "dee1234",
+		"location": "Springvale",
+		"email": "dean113@gmail.com"
+	},
+	{
+		"id": 4,
+		"name": "Kong A",
+		"password": "jan1234",
+		"location": "Richmond",
+		"email": "kong112@gmail.com"
+	},
+	{
+		"id": 5,
+		"name": "Ray Bourne",
+		"password": "ray1234",
+		"location": "Docklands",
+		"email": "ray115@gmail.com"
+	},
+	{
+		"id": 6,
+		"name": "Mike James",
+		"password": "mike1234",
+		"location": "Fitzroy",
+		"email": "mike117@gmail.com"
+	}
+}
